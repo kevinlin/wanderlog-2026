@@ -27,8 +27,8 @@
         },
         "activities": [
           {
-            "activity_id": "flight_sgn_dad_140",
-            "activity_name": "Vietnam Airlines 140: SGN \u2192 DAD",
+            "activity_id": "flight_sgn_dad_7120",
+            "activity_name": "Vietnam Airlines 7120: SGN -> DAD",
             "activity_type": "transport",
             "duration": "~1h 20m",
             "location": {
@@ -37,7 +37,7 @@
               "lng": 106.652
             },
             "order": 1,
-            "remarks": "Departs 4:45 PM, Arrives Da Nang 6:05 PM. Terminal 1.",
+            "remarks": "Departs 5:00 PM, Arrives Da Nang 6:20 PM. Terminal 1. Flight changed from VN140 (operational reasons).",
             "status": {
               "done": false
             },
