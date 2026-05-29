@@ -359,6 +359,23 @@
         "accommodation": {},
         "activities": [
           {
+            "activity_id": "banh_mi_phuong",
+            "activity_name": "Breakfast at Banh Mi Phuong",
+            "activity_type": "restaurant",
+            "duration": "~30m",
+            "location": {
+              "lat": 15.8773,
+              "lng": 108.3265,
+              "address": "2B Phan Chu Trinh Street, Hoi An Old Town, Quang Nam"
+            },
+            "order": 0,
+            "remarks": "Start the day at Anthony Bourdain's 'best banh mi in the world.' Crispy baguette layered with pate, secret sauces, grilled pork, and fresh herbs. Arrive before 10 AM to beat the queue. ~25,000 VND each. Grab one for the walk!",
+            "url": "",
+            "status": {
+              "done": false
+            }
+          },
+          {
             "activity_id": "japanese_covered_bridge",
             "activity_name": "Japanese Covered Bridge (Chua Cau)",
             "activity_type": "cultural",
@@ -368,8 +385,8 @@
               "lng": 108.326,
               "address": "Tran Phu Street, Hoi An Ancient Town, Quang Nam"
             },
-            "order": 0,
-            "remarks": "Start here! 400-year-old bridge built by Japanese merchants. Cross into the old town. Grab a Hoi An Old Town ticket (120,000 VND, covers 5 sites including this bridge). Morning light is best for photos.",
+            "order": 1,
+            "remarks": "A short walk from Banh Mi Phuong. 400-year-old bridge built by Japanese merchants, the symbol of Hoi An. Cross into the old town. Hoi An Old Town ticket (120,000 VND) covers this and 4 other sites.",
             "url": "",
             "status": {
               "done": false
@@ -382,11 +399,11 @@
             "duration": "~1.5h",
             "location": {
               "lat": 15.8774,
-              "lng": 108.3278,
-              "address": "Tran Phu Street, Hoi An Ancient Town, Quang Nam"
+              "lng": 108.328,
+              "address": "Tran Phu Street \u2192 Bach Dang Street, Hoi An Ancient Town, Quang Nam"
             },
-            "order": 1,
-            "remarks": "Walk east along Tran Phu Street through the yellow-walled old town. Must-see: Tan Ky Old House (18th century merchant house), Fujian Assembly Hall, Quan Cong Temple. Stop at Reaching Out Tea House for a quiet break.",
+            "order": 2,
+            "remarks": "Walk east along Tran Phu through yellow-walled streets. Stops: Tan Ky Old House (18th century), Fujian Assembly Hall (ornate dragon gate), Quan Cong Temple. Turn south onto Bach Dang Street along the river.",
             "url": "",
             "status": {
               "done": false
@@ -402,25 +419,8 @@
               "lng": 108.3275,
               "address": "66 Bach Dang Street, Hoi An Ancient Town, Quang Nam"
             },
-            "order": 2,
-            "remarks": "Daily folk music and dance shows at 10:15 AM, 3:15 PM, and 4:15 PM. The 3:15 PM show works perfectly for an afternoon visit. Included in the Old Town ticket. See traditional bamboo xylophone, folk dances, and the 'bai choi' singing game.",
-            "url": "",
-            "status": {
-              "done": false
-            }
-          },
-          {
-            "activity_id": "met_hoi_an",
-            "activity_name": "Lunch at MET Hoi An",
-            "activity_type": "restaurant",
-            "duration": "~1h",
-            "location": {
-              "lat": 15.8765,
-              "lng": 108.3293,
-              "address": "672b Bach Dang Street, Hoi An Ancient Town, Quang Nam"
-            },
             "order": 3,
-            "remarks": "Family-friendly Vietnamese restaurant on Bach Dang Street. Known for 'met' trays \u2014 bamboo platters of local specialties. Try the Cao Lau noodles, White Rose dumplings, and fresh spring rolls. Vegetarian options available. Riverside seating.",
+            "remarks": "Daily folk shows at 10:15 AM, 3:15 PM, and 4:15 PM. Included in Old Town ticket. Traditional bamboo xylophone, folk dances, and the lively 'bai choi' singing game \u2014 kids love joining in!",
             "url": "",
             "status": {
               "done": false
@@ -437,8 +437,25 @@
               "address": "19 Tran Phu, Cam Chau, Hoi An, Quang Nam"
             },
             "order": 4,
-            "remarks": "After lunch, browse the riverside market. Fresh produce, spices, Vietnamese coffee beans. Best place to shop for silk lanterns and souvenirs. Remember to bargain gently.",
+            "remarks": "Riverside market east of Bach Dang. Fresh produce, spices, Vietnamese coffee beans. Best place for silk lanterns. Bargain gently \u2014 starting at 50-60% of asking price is normal.",
             "url": "",
+            "status": {
+              "done": false
+            }
+          },
+          {
+            "activity_id": "hoi_an_lune_center",
+            "activity_name": "Lune Center for the Performing Arts",
+            "activity_type": "cultural",
+            "duration": "~1h",
+            "location": {
+              "lat": 15.876,
+              "lng": 108.3255,
+              "address": "1A Nguyen Phuc Chu Street, An Hoi, Hoi An, Quang Nam"
+            },
+            "order": 5,
+            "remarks": "Cross An Hoi Bridge to the south bank. World-class Vietnamese Bamboo Circus in a stunning riverside dome. 'Teh Dar' show features acrobatics, live tribal music, and giant bamboo props. Shows at 6 PM daily. Book ahead at luneproduction.com. ~700,000 VND.",
+            "url": "https://www.luneproduction.com",
             "status": {
               "done": false
             }
@@ -453,8 +470,8 @@
               "lng": 108.3273,
               "address": "Bach Dang Street Pier, Hoi An Ancient Town, Quang Nam"
             },
-            "order": 5,
-            "remarks": "End the day with a sampan boat ride on the Thu Bon River at sunset (around 6 PM in June). Release floating lanterns on the water \u2014 each lantern ~10,000 VND. As darkness falls, the old town lights up with thousands of colorful lanterns. The most magical moment of the entire trip.",
+            "order": 6,
+            "remarks": "End the day with a sampan boat ride on the Thu Bon River at sunset (~6 PM in June). Release floating lanterns \u2014 each ~10,000 VND. As darkness falls, the old town glows with thousands of colorful lanterns reflecting on the water. The most magical moment of the trip.",
             "url": "",
             "status": {
               "done": false
