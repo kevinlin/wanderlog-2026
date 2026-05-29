@@ -16,8 +16,8 @@
           "confirmation": "",
           "google_place_id": "",
           "location": {
-            "lat": 16.0377365,
-            "lng": 108.2236919
+            "lat": 16.0483415,
+            "lng": 108.2267041
           },
           "name": "Grand Mercure Danang",
           "phone": "+84 2363797777",
@@ -26,23 +26,6 @@
           "url": "https://grandmercuredanang.com/"
         },
         "activities": [
-          {
-            "activity_id": "flight_sin_sgn_650",
-            "activity_name": "Vietnam Airlines 650: SIN \u2192 SGN",
-            "activity_type": "transport",
-            "duration": "~2h 15m",
-            "location": {
-              "address": "Changi Airport Terminal 3",
-              "lat": 1.3555,
-              "lng": 103.9885
-            },
-            "order": 0,
-            "remarks": "Departs 1:10 PM SGT, Arrives 2:25 PM VN time. Vietnam Airlines 650. Connect to VN 140 at 4:45 PM.",
-            "status": {
-              "done": false
-            },
-            "url": ""
-          },
           {
             "activity_id": "flight_sgn_dad_140",
             "activity_name": "Vietnam Airlines 140: SGN \u2192 DAD",
@@ -67,8 +50,8 @@
         },
         "duration_days": 1,
         "location": {
-          "lat": 16.0377365,
-          "lng": 108.2236919
+          "lat": 16.0483415,
+          "lng": 108.2267041
         },
         "name": "Grand Mercure Danang",
         "scenic_waypoints": [],
@@ -285,23 +268,6 @@
             },
             "order": 0,
             "remarks": "Departs 1:30 PM, Arrives SGN 3:05 PM. 1h 55m layover.",
-            "status": {
-              "done": false
-            },
-            "url": ""
-          },
-          {
-            "activity_id": "flight_sgn_sin_657",
-            "activity_name": "Vietnam Airlines 657: SGN \u2192 SIN",
-            "activity_type": "transport",
-            "duration": "~2h",
-            "location": {
-              "address": "Tan Son Nhat Airport (SGN) Terminal 2",
-              "lat": 10.8188,
-              "lng": 106.652
-            },
-            "order": 1,
-            "remarks": "Departs 5:00 PM VN time, Arrives Singapore 8:00 PM SGT. Terminal 3.",
             "status": {
               "done": false
             },
