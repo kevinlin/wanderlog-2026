@@ -344,7 +344,7 @@
       },
       {
         "stop_id": "hoi-an-old-town",
-        "name": "Hoi An Old Town",
+        "name": "Hoi An Old Town (Walking Day)",
         "date": {
           "from": "2026-06-04",
           "to": "2026-06-04"
@@ -359,72 +359,106 @@
         "accommodation": {},
         "activities": [
           {
-            "activity_id": "hoi_an_ancient_town",
-            "activity_name": "Hoi An Ancient Town Walking Tour",
+            "activity_id": "japanese_covered_bridge",
+            "activity_name": "Japanese Covered Bridge (Chua Cau)",
             "activity_type": "cultural",
-            "duration": "~3h",
+            "duration": "~30m",
             "location": {
               "lat": 15.8771,
               "lng": 108.326,
               "address": "Tran Phu Street, Hoi An Ancient Town, Quang Nam"
             },
-            "remarks": "UNESCO World Heritage Site. Walk through 15th-19th century merchant houses, temples, and assembly halls. Must-see: Japanese Covered Bridge, Tan Ky Old House, Fujian Assembly Hall. Buy a Hoi An Old Town ticket (120,000 VND) covering 5 heritage sites. Morning is best to avoid heat.",
+            "order": 0,
+            "remarks": "Start here! 400-year-old bridge built by Japanese merchants. Cross into the old town. Grab a Hoi An Old Town ticket (120,000 VND, covers 5 sites including this bridge). Morning light is best for photos.",
             "url": "",
             "status": {
               "done": false
+            }
+          },
+          {
+            "activity_id": "hoi_an_walking_tour",
+            "activity_name": "Ancient Town Walking Tour",
+            "activity_type": "cultural",
+            "duration": "~1.5h",
+            "location": {
+              "lat": 15.8774,
+              "lng": 108.3278,
+              "address": "Tran Phu Street, Hoi An Ancient Town, Quang Nam"
             },
-            "order": 0
+            "order": 1,
+            "remarks": "Walk east along Tran Phu Street through the yellow-walled old town. Must-see: Tan Ky Old House (18th century merchant house), Fujian Assembly Hall, Quan Cong Temple. Stop at Reaching Out Tea House for a quiet break.",
+            "url": "",
+            "status": {
+              "done": false
+            }
+          },
+          {
+            "activity_id": "hoi_an_traditional_art",
+            "activity_name": "Traditional Art Performance House",
+            "activity_type": "cultural",
+            "duration": "~45m",
+            "location": {
+              "lat": 15.8767,
+              "lng": 108.3275,
+              "address": "66 Bach Dang Street, Hoi An Ancient Town, Quang Nam"
+            },
+            "order": 2,
+            "remarks": "Daily folk music and dance shows at 10:15 AM, 3:15 PM, and 4:15 PM. The 3:15 PM show works perfectly for an afternoon visit. Included in the Old Town ticket. See traditional bamboo xylophone, folk dances, and the 'bai choi' singing game.",
+            "url": "",
+            "status": {
+              "done": false
+            }
+          },
+          {
+            "activity_id": "met_hoi_an",
+            "activity_name": "Lunch at MET Hoi An",
+            "activity_type": "restaurant",
+            "duration": "~1h",
+            "location": {
+              "lat": 15.8765,
+              "lng": 108.3293,
+              "address": "672b Bach Dang Street, Hoi An Ancient Town, Quang Nam"
+            },
+            "order": 3,
+            "remarks": "Family-friendly Vietnamese restaurant on Bach Dang Street. Known for 'met' trays \u2014 bamboo platters of local specialties. Try the Cao Lau noodles, White Rose dumplings, and fresh spring rolls. Vegetarian options available. Riverside seating.",
+            "url": "",
+            "status": {
+              "done": false
+            }
           },
           {
             "activity_id": "hoi_an_market",
             "activity_name": "Hoi An Central Market",
             "activity_type": "shopping",
-            "duration": "~1h",
+            "duration": "~45m",
             "location": {
               "lat": 15.877,
               "lng": 108.3308,
               "address": "19 Tran Phu, Cam Chau, Hoi An, Quang Nam"
             },
-            "remarks": "Bustling riverside market with fresh produce, spices, and street food. Try Cao Lau (Hoi An signature noodles) and White Rose dumplings. Great for buying Vietnamese coffee beans and lanterns.",
+            "order": 4,
+            "remarks": "After lunch, browse the riverside market. Fresh produce, spices, Vietnamese coffee beans. Best place to shop for silk lanterns and souvenirs. Remember to bargain gently.",
             "url": "",
             "status": {
               "done": false
-            },
-            "order": 1
+            }
           },
           {
-            "activity_id": "lantern_making",
-            "activity_name": "Lantern Making Workshop",
-            "activity_type": "cultural",
-            "duration": "~1h",
-            "location": {
-              "lat": 15.8761,
-              "lng": 108.3295,
-              "address": "Hoi An Ancient Town, Cam Pho, Hoi An, Quang Nam"
-            },
-            "remarks": "Family-friendly hands-on workshop making traditional Hoi An silk lanterns. Choose your fabric and frame, take home your creation. Many shops along Tran Phu and Nguyen Thai Hoc offer walk-in sessions (~150,000 VND per person).",
-            "url": "",
-            "status": {
-              "done": false
-            },
-            "order": 2
-          },
-          {
-            "activity_id": "thu_bon_boat_ride",
-            "activity_name": "Thu Bon River Sunset Boat Ride & Lantern Release",
+            "activity_id": "lantern_boat_ride",
+            "activity_name": "Hoi An Lantern Boat Ride",
             "activity_type": "recreation",
-            "duration": "~1h",
+            "duration": "~45m",
             "location": {
-              "lat": 15.8766,
-              "lng": 108.3277,
+              "lat": 15.8768,
+              "lng": 108.3273,
               "address": "Bach Dang Street Pier, Hoi An Ancient Town, Quang Nam"
             },
-            "remarks": "End the day with a sampan boat ride on Thu Bon River at sunset. Release floating lanterns on the water - a magical Hoi An tradition. Best from 5:30 PM as the old town lights up with colorful lanterns. Boat rides ~150,000 VND, lanterns ~10,000 VND each.",
+            "order": 5,
+            "remarks": "End the day with a sampan boat ride on the Thu Bon River at sunset (around 6 PM in June). Release floating lanterns on the water \u2014 each lantern ~10,000 VND. As darkness falls, the old town lights up with thousands of colorful lanterns. The most magical moment of the entire trip.",
             "url": "",
             "status": {
               "done": false
-            },
-            "order": 3
+            }
           }
         ]
       },
