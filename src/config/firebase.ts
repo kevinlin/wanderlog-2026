@@ -30,12 +30,17 @@ let db: Firestore;
  * Initialize Firebase app and Firestore
  * Should be called once at app startup
  */
-export const initializeFirebase = (): { app: FirebaseApp; db: Firestore } => {
-  if (!app) {
-    app = initializeApp(firebaseConfig);
-    db = getFirestore(app);
+export const initializeFirebase = (): { app: FirebaseApp; db: Firestore } | null => {
+  try {
+    if (!app && firebaseConfig.apiKey) {
+      app = initializeApp(firebaseConfig);
+      db = getFirestore(app);
+    }
+    return app ? { app, db } : null;
+  } catch (error) {
+    console.warn('Firebase initialization failed (expected in static hosting):', error);
+    return null;
   }
-  return { app, db };
 };
 
 /**
@@ -45,6 +50,7 @@ export const initializeFirebase = (): { app: FirebaseApp; db: Firestore } => {
 export const getApp = (): FirebaseApp => {
   if (!app) {
     const result = initializeFirebase();
+    if (result === null) throw new Error('Firebase not available — no API key configured');
     return result.app;
   }
   return app;
@@ -57,6 +63,7 @@ export const getApp = (): FirebaseApp => {
 export const getDb = (): Firestore => {
   if (!db) {
     const result = initializeFirebase();
+    if (result === null) throw new Error('Firebase not available — no API key configured');
     return result.db;
   }
   return db;
