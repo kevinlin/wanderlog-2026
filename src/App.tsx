@@ -17,7 +17,7 @@ import { getCurrentStop } from '@/utils/dateUtils';
 import { sortActivitiesByOrder } from '@/utils/tripUtils';
 
 function App() {
-  const { tripData, isLoading, error, refetch } = useTripData({ tripId: '202512_NZ' });
+  const { tripData, isLoading, error, refetch } = useTripData({ tripId: '202606_DaNang' });
   const { state, dispatch } = useAppStateContext();
   const { isMobile } = useScreenSize();
   const [toast, setToast] = useState<ToastState>({ message: '', type: 'info', show: false });

@@ -3,6 +3,23 @@ import { isValidTripData } from '@/utils/validationUtils';
 import { getAllTrips as getAllTripsFromFirestore, getTripById as getTripByIdFromFirestore } from './firebaseService';
 
 /**
+ * Local trip data fallback for when Firebase is not configured (static hosting).
+ * Add new trips here as they are created.
+ */
+const LOCAL_TRIP_FILES: Record<string, () => Promise<{ default: { tripData: TripData } }>> = {
+  '202606_DaNang': () => import('../../local/trip-data/202606_DaNang_trip-plan.json'),
+  '202512_NZ': () => import('../../local/trip-data/202512_NZ_trip-plan.json'),
+};
+
+const loadLocalTrip = async (tripId: string): Promise<TripData> => {
+  const loader = LOCAL_TRIP_FILES[tripId];
+  if (!loader) throw new Error(`No local trip data for ${tripId}`);
+  const mod = await loader();
+  const raw = mod.default?.tripData || mod.default;
+  return raw as TripData;
+};
+
+/**
  * Validation result interface
  */
 export interface ValidationResult {
@@ -57,14 +74,23 @@ export const loadTripData = async (tripId: string): Promise<TripData> => {
       console.warn('Trip data warnings:', validation.warnings);
     }
 
-    console.log(`✓ Loaded trip: ${tripData.trip_name}`);
+    console.log(`✓ Loaded trip from Firestore: ${tripData.trip_name}`);
     return tripData;
   } catch (error) {
-    if (error instanceof Error) {
-      throw error;
+    // Fall back to local JSON if Firebase is unavailable
+    console.warn('Firebase unavailable, loading from local JSON:', error instanceof Error ? error.message : error);
+    try {
+      const localData = await loadLocalTrip(tripId);
+      const validation = validateTripData(localData);
+      if (!validation.isValid) {
+        throw new Error(`Invalid local trip data: ${validation.errors.join(', ')}`);
+      }
+      console.log(`✓ Loaded trip from local JSON: ${localData.trip_name || tripId}`);
+      return localData;
+    } catch (localError) {
+      console.error('Failed to load trip data:', localError);
+      throw new Error('Unable to load trip data. Please try again later.');
     }
-    console.error('Failed to load trip data:', error);
-    throw new Error('Unable to load trip data. Please try again later.');
   }
 };
 
