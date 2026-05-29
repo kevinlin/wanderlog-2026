@@ -28,8 +28,8 @@
         "activities": [
           {
             "activity_id": "flight_sin_sgn_650",
-            "activity_name": "Vietnam Airlines 650: SIN → SGN",
-            "activity_type": "flight",
+            "activity_name": "Vietnam Airlines 650: SIN \u2192 SGN",
+            "activity_type": "transport",
             "duration": "~2h 15m",
             "location": {
               "address": "Changi Airport Terminal 3",
@@ -38,22 +38,26 @@
             },
             "order": 0,
             "remarks": "Departs 1:10 PM SGT, Arrives 2:25 PM VN time. Vietnam Airlines 650. Connect to VN 140 at 4:45 PM.",
-            "status": { "done": false },
+            "status": {
+              "done": false
+            },
             "url": ""
           },
           {
             "activity_id": "flight_sgn_dad_140",
-            "activity_name": "Vietnam Airlines 140: SGN → DAD",
-            "activity_type": "flight",
+            "activity_name": "Vietnam Airlines 140: SGN \u2192 DAD",
+            "activity_type": "transport",
             "duration": "~1h 20m",
             "location": {
               "address": "Tan Son Nhat Airport (SGN) Terminal 3",
               "lat": 10.8188,
-              "lng": 106.6520
+              "lng": 106.652
             },
             "order": 1,
             "remarks": "Departs 4:45 PM, Arrives Da Nang 6:05 PM. Terminal 1.",
-            "status": { "done": false },
+            "status": {
+              "done": false
+            },
             "url": ""
           }
         ],
@@ -83,24 +87,26 @@
           },
           "name": "Mercure Danang French Village Bana Hills",
           "phone": "+84 2363799888",
-          "room": "Suite — 1 King + Twin beds, 80m², 2 bathrooms",
+          "room": "Suite \u2014 1 King + Twin beds, 80m\u00b2, 2 bathrooms",
           "thumbnail_url": "",
           "url": ""
         },
         "activities": [
           {
             "activity_id": "transfer_gm_to_bana",
-            "activity_name": "Private transfer: Grand Mercure → Bana Hills",
+            "activity_name": "Private transfer: Grand Mercure \u2192 Bana Hills",
             "activity_type": "transport",
             "duration": "~1h",
             "location": {
-              "address": "Da Nang → Bana Hills",
+              "address": "Da Nang \u2192 Bana Hills",
               "lat": 16.0451998,
               "lng": 108.1132212
             },
             "order": 0,
             "remarks": "Kevin requested private ride from Grand Mercure to Bana Hills via cable car. Awaiting confirmation from hotel (Truong).",
-            "status": { "done": false },
+            "status": {
+              "done": false
+            },
             "url": ""
           },
           {
@@ -115,7 +121,9 @@
             },
             "order": 1,
             "remarks": "Cable car rides, Golden Bridge, French Village, amusement park. Cable car tickets NOT included in hotel price.",
-            "status": { "done": false },
+            "status": {
+              "done": false
+            },
             "url": ""
           }
         ],
@@ -162,7 +170,9 @@
             },
             "order": 0,
             "remarks": "Walking distance from Radisson. One of Vietnam's most famous beaches.",
-            "status": { "done": false },
+            "status": {
+              "done": false
+            },
             "url": ""
           },
           {
@@ -172,12 +182,14 @@
             "duration": "Evening",
             "location": {
               "address": "Dragon Bridge, Da Nang",
-              "lat": 16.0610,
+              "lat": 16.061,
               "lng": 108.2267
             },
             "order": 1,
             "remarks": "Dragon breathes fire/water on weekend evenings. Check schedule.",
-            "status": { "done": false },
+            "status": {
+              "done": false
+            },
             "url": ""
           }
         ],
@@ -190,13 +202,13 @@
           "lat": 16.0739242,
           "lng": 108.2446561
         },
-        "name": "Radisson — Da Nang Beach",
+        "name": "Radisson \u2014 Da Nang Beach",
         "scenic_waypoints": [],
         "stop_id": "radisson-danang"
       },
       {
         "accommodation": {
-          "address": "Nguyễn Tất Thành, Hoà Hiệp Nam, Liên Chiểu, Da Nang",
+          "address": "Nguy\u1ec5n T\u1ea5t Th\u00e0nh, Ho\u00e0 Hi\u1ec7p Nam, Li\u00ean Chi\u1ec3u, Da Nang",
           "check_in": "2026-06-05 15:00",
           "check_out": "2026-06-07 12:00",
           "confirmation": "",
@@ -215,7 +227,7 @@
           {
             "activity_id": "mikazuki_onsen",
             "activity_name": "Onsen & Spa at Mikazuki",
-            "activity_type": "spa",
+            "activity_type": "recreation",
             "duration": "Flexible",
             "location": {
               "address": "Mikazuki Japanese Resorts & Spa",
@@ -224,7 +236,9 @@
             },
             "order": 0,
             "remarks": "Japanese-style onsen and spa experience. Relax before departure.",
-            "status": { "done": false },
+            "status": {
+              "done": false
+            },
             "url": ""
           }
         ],
@@ -237,7 +251,7 @@
           "lat": 16.1054023,
           "lng": 108.117764
         },
-        "name": "Mikazuki — Japanese Resort",
+        "name": "Mikazuki \u2014 Japanese Resort",
         "scenic_waypoints": [],
         "stop_id": "mikazuki-danang"
       },
@@ -261,8 +275,8 @@
         "activities": [
           {
             "activity_id": "flight_dad_sgn_129",
-            "activity_name": "Vietnam Airlines 129: DAD → SGN",
-            "activity_type": "flight",
+            "activity_name": "Vietnam Airlines 129: DAD \u2192 SGN",
+            "activity_type": "transport",
             "duration": "~1h 35m",
             "location": {
               "address": "Da Nang Airport (DAD) Terminal 1",
@@ -271,22 +285,26 @@
             },
             "order": 0,
             "remarks": "Departs 1:30 PM, Arrives SGN 3:05 PM. 1h 55m layover.",
-            "status": { "done": false },
+            "status": {
+              "done": false
+            },
             "url": ""
           },
           {
             "activity_id": "flight_sgn_sin_657",
-            "activity_name": "Vietnam Airlines 657: SGN → SIN",
-            "activity_type": "flight",
+            "activity_name": "Vietnam Airlines 657: SGN \u2192 SIN",
+            "activity_type": "transport",
             "duration": "~2h",
             "location": {
               "address": "Tan Son Nhat Airport (SGN) Terminal 2",
               "lat": 10.8188,
-              "lng": 106.6520
+              "lng": 106.652
             },
             "order": 1,
             "remarks": "Departs 5:00 PM VN time, Arrives Singapore 8:00 PM SGT. Terminal 3.",
-            "status": { "done": false },
+            "status": {
+              "done": false
+            },
             "url": ""
           }
         ],
@@ -305,6 +323,6 @@
       }
     ],
     "timezone": "Asia/Ho_Chi_Minh",
-    "trip_name": "Da Nang, Vietnam — May 30 to Jun 7, 2026"
+    "trip_name": "Da Nang, Vietnam \u2014 May 30 to Jun 7, 2026"
   }
 }

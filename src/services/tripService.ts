@@ -6,7 +6,8 @@ import { getAllTrips as getAllTripsFromFirestore, getTripById as getTripByIdFrom
  * Local trip data fallback for when Firebase is not configured (static hosting).
  * Add new trips here as they are created.
  */
-const LOCAL_TRIP_FILES: Record<string, () => Promise<{ default: { tripData: TripData } }>> = {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const LOCAL_TRIP_FILES: Record<string, () => Promise<any>> = {
   '202606_DaNang': () => import('../../local/trip-data/202606_DaNang_trip-plan.json'),
   '202512_NZ': () => import('../../local/trip-data/202512_NZ_trip-plan.json'),
 };
