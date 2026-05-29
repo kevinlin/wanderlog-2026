@@ -240,16 +240,16 @@
       },
       {
         "accommodation": {
-          "address": "",
-          "check_in": "2026-06-07 13:30",
-          "check_out": "2026-06-07 20:00",
+          "name": "Tan Son Nhat Airport Terminal 2",
+          "address": "Tan Son Nhat International Airport, Terminal 2, Ho Chi Minh City",
+          "check_in": "2026-06-07 15:05",
+          "check_out": "2026-06-07 17:00",
           "confirmation": "",
           "google_place_id": "",
           "location": {
-            "lat": 1.3555,
-            "lng": 103.9885
+            "lat": 10.8188,
+            "lng": 106.652
           },
-          "name": "Return to Singapore",
           "phone": "",
           "room": "",
           "thumbnail_url": "",
@@ -280,8 +280,8 @@
         },
         "duration_days": 1,
         "location": {
-          "lat": 16.0439,
-          "lng": 108.1994
+          "lat": 10.8188,
+          "lng": 106.652
         },
         "name": "Return Flight",
         "scenic_waypoints": [],
