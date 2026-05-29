@@ -59,74 +59,6 @@
               "done": false
             },
             "order": 2
-          },
-          {
-            "activity_id": "cham_museum",
-            "activity_name": "Museum of Cham Sculpture",
-            "activity_type": "cultural",
-            "duration": "~1.5h",
-            "location": {
-              "lat": 16.0602,
-              "lng": 108.2231,
-              "address": "No. 02, 2 Thang 9 Street, Binh Hien, Hai Chau, Da Nang"
-            },
-            "remarks": "World's largest collection of Cham artefacts dating from 7th-15th centuries. Air-conditioned, great for hot afternoons. Kids love the ancient statues.",
-            "url": "",
-            "status": {
-              "done": false
-            },
-            "order": 3
-          },
-          {
-            "activity_id": "han_market",
-            "activity_name": "Han Market (Cho Han)",
-            "activity_type": "shopping",
-            "duration": "~1h",
-            "location": {
-              "lat": 16.0681,
-              "lng": 108.224,
-              "address": "119 Tran Phu, Hai Chau 1, Hai Chau, Da Nang 550000"
-            },
-            "remarks": "Iconic local market for Vietnamese snacks, dried fruits, ao dai tailoring, and souvenirs. Try the fresh spring rolls and avocado ice cream.",
-            "url": "",
-            "status": {
-              "done": false
-            },
-            "order": 4
-          },
-          {
-            "activity_id": "my_khe_beach_gm",
-            "activity_name": "My Khe Beach",
-            "activity_type": "beach",
-            "duration": "~2h",
-            "location": {
-              "lat": 16.0739,
-              "lng": 108.2476,
-              "address": "Vo Nguyen Giap, Phuoc My, Son Tra, Da Nang"
-            },
-            "remarks": "Forbes' one of the most attractive beaches in the world. Soft white sand, gentle waves, family-friendly. Best in early morning or late afternoon to avoid midday heat.",
-            "url": "",
-            "status": {
-              "done": false
-            },
-            "order": 5
-          },
-          {
-            "activity_id": "son_tra_lady_buddha",
-            "activity_name": "Linh Ung Pagoda & Lady Buddha",
-            "activity_type": "cultural",
-            "duration": "~2h",
-            "location": {
-              "lat": 16.1002,
-              "lng": 108.2777,
-              "address": "Son Tra Peninsula, Tho Quang, Son Tra, Da Nang"
-            },
-            "remarks": "67m-tall Lady Buddha statue overlooking the sea. Panoramic views of Da Nang coastline. Drive up Son Tra Peninsula, spot rare red-shanked douc langurs.",
-            "url": "",
-            "status": {
-              "done": false
-            },
-            "order": 6
           }
         ],
         "date": {
@@ -346,6 +278,87 @@
             "order": 2
           },
           {
+            "activity_id": "han_market",
+            "activity_name": "Han Market (Cho Han)",
+            "activity_type": "shopping",
+            "duration": "~1h",
+            "location": {
+              "lat": 16.0681,
+              "lng": 108.224,
+              "address": "119 Tran Phu, Hai Chau 1, Hai Chau, Da Nang 550000"
+            },
+            "remarks": "Iconic local market for Vietnamese snacks, dried fruits, ao dai tailoring, and souvenirs. Try the fresh spring rolls and avocado ice cream.",
+            "url": "",
+            "status": {
+              "done": false
+            },
+            "order": 3
+          },
+          {
+            "activity_id": "cham_museum",
+            "activity_name": "Museum of Cham Sculpture",
+            "activity_type": "cultural",
+            "duration": "~1.5h",
+            "location": {
+              "lat": 16.0602,
+              "lng": 108.2231,
+              "address": "No. 02, 2 Thang 9 Street, Binh Hien, Hai Chau, Da Nang"
+            },
+            "remarks": "World's largest collection of Cham artefacts dating from 7th-15th centuries. Air-conditioned, great for hot afternoons. Kids love the ancient statues.",
+            "url": "",
+            "status": {
+              "done": false
+            },
+            "order": 4
+          },
+          {
+            "activity_id": "son_tra_lady_buddha",
+            "activity_name": "Linh Ung Pagoda & Lady Buddha",
+            "activity_type": "cultural",
+            "duration": "~2h",
+            "location": {
+              "lat": 16.1002,
+              "lng": 108.2777,
+              "address": "Son Tra Peninsula, Tho Quang, Son Tra, Da Nang"
+            },
+            "remarks": "67m-tall Lady Buddha statue overlooking the sea. Panoramic views of Da Nang coastline. Drive up Son Tra Peninsula, spot rare red-shanked douc langurs.",
+            "url": "",
+            "status": {
+              "done": false
+            },
+            "order": 5
+          }
+        ],
+        "date": {
+          "from": "2026-06-02",
+          "to": "2026-06-05"
+        },
+        "duration_days": 3,
+        "location": {
+          "lat": 16.0739242,
+          "lng": 108.2446561
+        },
+        "name": "Radisson \u2014 Da Nang Beach",
+        "scenic_waypoints": [],
+        "stop_id": "radisson-danang"
+      },
+      {
+        "stop_id": "hoi-an-old-town",
+        "name": "Hoi An Old Town",
+        "date": {
+          "from": "2026-06-04",
+          "to": "2026-06-04"
+        },
+        "location": {
+          "lat": 15.8771,
+          "lng": 108.326
+        },
+        "duration_days": 0,
+        "travel_time_from_previous": "~45m",
+        "scenic_waypoints": [],
+        "accommodation": {},
+        "activities": [
+          {
             "activity_id": "hoi_an_ancient_town",
             "activity_name": "Hoi An Ancient Town Walking Tour",
             "activity_type": "cultural",
@@ -360,7 +373,7 @@
             "status": {
               "done": false
             },
-            "order": 3
+            "order": 0
           },
           {
             "activity_id": "hoi_an_market",
@@ -377,7 +390,7 @@
             "status": {
               "done": false
             },
-            "order": 4
+            "order": 1
           },
           {
             "activity_id": "lantern_making",
@@ -394,7 +407,7 @@
             "status": {
               "done": false
             },
-            "order": 5
+            "order": 2
           },
           {
             "activity_id": "thu_bon_boat_ride",
@@ -411,21 +424,9 @@
             "status": {
               "done": false
             },
-            "order": 6
+            "order": 3
           }
-        ],
-        "date": {
-          "from": "2026-06-02",
-          "to": "2026-06-05"
-        },
-        "duration_days": 3,
-        "location": {
-          "lat": 16.0739242,
-          "lng": 108.2446561
-        },
-        "name": "Radisson \u2014 Da Nang Beach",
-        "scenic_waypoints": [],
-        "stop_id": "radisson-danang"
+        ]
       },
       {
         "accommodation": {
