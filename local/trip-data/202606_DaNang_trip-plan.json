@@ -303,6 +303,8 @@
         "scenic_waypoints": [],
         "stop_id": "return-flight"
       }
-    ]
+    ],
+    "timezone": "Asia/Ho_Chi_Minh",
+    "trip_name": "Da Nang, Vietnam — May 30 to Jun 7, 2026"
   }
 }
